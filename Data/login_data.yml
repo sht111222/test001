@@ -1,0 +1,38 @@
+login_test_001:
+  username: "13488834010"
+  passwd: "159357"
+  expect: True
+  expect_toast: "登录成功"
+  get_msg: "成功"
+login_test_002:
+  username: " 13488834010"
+  passwd: "159357"
+  expect: True
+  expect_toast: "登录成功"
+  get_msg: "成功"
+login_test_003:
+  username: "13488834010 "
+  passwd: "159357"
+  expect: True
+  expect_toast: "登录成功"
+  get_msg: "成功"
+login_test_005:
+  username: "13488834010"
+  passwd: "159357000"
+  expect_toast: "密码错误!"
+  get_msg: "错误"
+login_test_007:
+  username: "134888340101"
+  passwd: "159357000"
+  expect_toast: "账号不存在!"
+  get_msg: "不存在"
+login_test_008:
+  username: "1348883401"
+  passwd: "159357000"
+  expect_toast: "账号不存在!"
+  get_msg: "不存在"
+login_test_009:
+  username: "18888888888"
+  passwd: "1593570"
+  expect_toast: "账号不存在!"
+  get_msg: "不存在"

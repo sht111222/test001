@@ -1,0 +1,20 @@
+Add_Data:
+  test_add_address_001:
+    name: "hello"
+    phone: "13488834010"
+    detail: "北七家修正大厦"
+    get_toast: "成功"
+    expect_toast: "添加成功"
+    expect_default: "默认"
+
+Edit_Data:
+  test_edit_address_001:
+    name: "哈哈"
+    get_toast: "编辑"
+    expect_toast: "编辑成功"
+
+Del_data:
+  test_del_address_001:
+    name: "哈哈"
+    get_toast: "删除"
+    expect_toast: "删除成功"
